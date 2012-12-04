@@ -20,7 +20,7 @@ public class RmiServer extends java.rmi.server.UnicastRemoteObject implements Re
 			address = (InetAddress.getLocalHost()).toString();
 		}
 		catch(Exception e){
-			System.out.println("can't get inet address.");
+			System.out.println("can't get address.");
 		}
 		int port=1099; 
 		System.out.println("this address=" + address +  ",port=" + port);

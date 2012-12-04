@@ -1,0 +1,4 @@
+VM Arguments
+
+-Djava.rmi.server.codebase=file:/U:\git\bearded-hipster\RMI\bin -Djava.rmi.server.hostname=192.168.4.217
+ -Djava.security.policy=server.policy
